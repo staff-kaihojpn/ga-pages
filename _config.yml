@@ -21,13 +21,22 @@
 title: Galleria李朝
 email: info@kaihojpn.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  厳選された古美術品を毎日出品中<br>
+  初荷を揃えております
 baseurl: "/ga-pages" # the subpath of your site, e.g. /blog
 url: "staff-kaihojpn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: staff-kaihojpn
-github_username:  jekyll
+#github_username:  jekyll
+
+accent_color: rgb(100,100,100)
+menu:
+  - title: ストア
+    url:   https://auctions.yahoo.co.jp/seller/galleriaricho
+  - title: 取引規定
+    url:   /rules/
+  - title: 送料表
+    url:   /shipment/
+
 
 # Build settings
 theme: jekyll-theme-hydejack
