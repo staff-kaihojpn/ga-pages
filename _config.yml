@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   初荷を揃えております
 baseurl: "/ga-pages" # the subpath of your site, e.g. /blog
 url: "staff-kaihojpn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+yahoo_auction_id: galleriaricho
 twitter_username: staff-kaihojpn
 #github_username:  jekyll
 
