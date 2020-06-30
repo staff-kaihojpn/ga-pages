@@ -10,7 +10,7 @@ title: 本日落札の商品
 <div style="display: flex; flex-wrap: wrap;">
   {% for item in site.data.items %}
   <a class="no-mark" target="_blank" HREF="{{ item.url }}">
-    <img BORDER=0 SRC="{{ item['image'] }}" style="padding-right: .15rem;" WIDTH="90px" HEIGHT="67px">
+    <img alt="{{item.title}}" BORDER=0 SRC="{{ item.image }}" style="padding-right: .15rem;" WIDTH="90px" HEIGHT="67px">
   </a>
   {% endfor %}
 </div>
